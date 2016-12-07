@@ -1,0 +1,74 @@
+/* 
+Common Style to apply accross the page 
+
+*/
+
+.text-color {
+	color: #2d3c49;
+}
+
+.centered-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.container {
+	width:96vw;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+/* 
+	CSS releated to the header of the page 
+*/
+
+.header{
+
+	border-bottom-style: solid;
+	border-bottom-color: #7d97ad;
+	border-bottom-width: 4px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+
+#logo{
+	width: 20vw;
+}
+
+#ninja{
+	width: 80vw;
+	text-align: right;
+}
+
+.header {
+	display: flex;
+}
+
+/* 
+	CSS releated to the list of works
+*/
+
+#works-title{
+	color: #7d97ad;
+	padding-left: 10px;
+}
+
+#works-topics {
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	width: 30vw;
+}
+
+.link {
+	text-decoration: none;
+}
