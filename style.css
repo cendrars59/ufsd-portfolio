@@ -1,0 +1,39 @@
+/* 
+	Common Style to apply accross the page 
+*/
+
+.text-color {
+	color: #2d3c49; /* Dark grey */
+}
+
+.centered-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*
+	CSS releated to the header of the page 
+*/
+
+.header {
+	border-bottom-style: solid;
+	border-bottom-color: #7d97ad;
+	border-bottom-width: 2px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+
+/* 
+	CSS releated to the list of works
+*/
+
+#works-title {
+	color: #7d97ad; /* Light grey */
+	padding-right: 30px;
+}
+
+.link {
+	text-decoration: none;
+}
